@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#
+
 if [[ $(whoami) != "root" ]]; then
 	echo " ERROR: Please run as root"
 fi
